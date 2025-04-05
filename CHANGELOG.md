@@ -1,29 +1,11 @@
 # Changelog 25.XX.X - XXX 2025
 
-### 2x Faster TC Flash Hash
-SHA256 and PBKDF2_hmac can now use hardware sha256 hashing, allowing TC Flash to be executed 2x faster.
+### CNC Printer
+- current code was failing, adapt it to latest qr_code array structure
+- uncomment, test, and adapt code to fit an openbuilds grbl 1.1 cnc and print directly to cnc via serial
 
-### New Mnemonic Menu Disabled by Hide Mnemonic
-When enabled, the hide mnemonic setting also disables the New Mnemonic menu.
-
-### Highlight Fingerprint and Other Texts
-The wallet fingerprint, keypad title, settings categories and prefix texts are now shown highlighted on all screens.
-
-### More Colors on Settings Categories
-When the value of the settings category is boolean (True/False), it will be displayed in color.
-
-### More Readable Address 
-Addresses are displayed in groups of 4, separated by spaces, for better readability.
-
-### Other Bug Fixes and Optimizations
-- Fix printing words instead of numbers when using "Backup Mnemonic > Other formats > Numbers".
-- Added fingerprint to mnemonic preview and editor.
-- Show fingerprint preview when changing wallet passphrase.
-- Store encrypted mnemonic now asks if you want to use the fingerprint as ID.
-- Optimized the way we check device's board values.
-- Added QR Code to About screen.
-- Other small text changes for clarity and translation simplification.
-
+### SVG image export
+- add option to save encrypted qr as svg image
 
 # Changelog 25.03.0 - March 2025
 
